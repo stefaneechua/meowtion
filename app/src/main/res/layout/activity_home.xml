@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_home"
+    tools:context="com.stefanee.meowtion.HomeActivity">
+
+    <com.varunest.sparkbutton.SparkButton
+        android:id="@+id/spark_button"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:sparkbutton_activeImage="@drawable/catlogo_active"
+        app:sparkbutton_iconSize="100dp"
+        app:sparkbutton_inActiveImage="@drawable/catlogo_idle"
+        app:sparkbutton_primaryColor="@color/primary_color"
+        app:sparkbutton_secondaryColor="@color/secondary_color" />
+
+    <Button
+        android:id="@+id/meowtion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/spark_button"
+        android:layout_alignStart="@+id/spark_button"
+        android:layout_below="@+id/spark_button"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/btn_home"
+        android:fontFamily="monospace"
+        android:text="MEOWTION"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

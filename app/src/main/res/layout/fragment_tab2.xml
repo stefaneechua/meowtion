@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textTab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnTab2"
+        android:layout_alignEnd="@+id/imageViewHurt"
+        android:layout_marginEnd="24dp"
+        android:text="Tab 02"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnTab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageViewHurt"
+        android:layout_below="@+id/imageViewHurt"
+        android:layout_marginTop="31dp"
+        android:text="BUTTON 02" />
+
+    <ImageView
+        android:id="@+id/imageViewHurt"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/togglebtnTab2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/holo_blue_bright" />
+
+</RelativeLayout>
